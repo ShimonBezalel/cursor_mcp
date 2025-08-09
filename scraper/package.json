@@ -1,0 +1,15 @@
+{
+  "name": "cursor-agents-scraper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "tsx src/login.ts",
+    "scrape": "tsx src/scrape.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.46.0",
+    "tsx": "^4.19.0"
+  }
+}
