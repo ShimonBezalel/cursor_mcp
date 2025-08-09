@@ -1,0 +1,9 @@
+{
+  "name": "cursor-agents-root",
+  "private": true,
+  "scripts": {
+    "postinstall": "pnpm --filter ./scraper install",
+    "login": "pnpm --filter ./scraper run login",
+    "scrape": "pnpm --filter ./scraper run scrape"
+  }
+}
