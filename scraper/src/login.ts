@@ -1,3 +1,4 @@
+import './env.js';
 import 'dotenv/config';
 import { chromium } from 'playwright';
 
